@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I knew what was different between the two versions of the file and i could understand
+    why the new version was not working. Viewing the difference led me to the exact line
+    and command that changed
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    Having access to the entrie history would give me the freedom to try out multiple 
+    ways of improving the program without thinking about losing the version that was 
+    working. If i mess up i can always go back to the history of my versions and pick the 
+    one that was working fine 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Pros include lesser and more manageable version history. Also each commit would have a logical change
+    since its manual. Cons are it is left to the developer on when to commit so you might miss
+    logical changes due to human judgements. Also what if the system crashes or 
+    something then u dont have the changes that you culd have committed
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git lets you work on projects that might need mutliple files and types of files and that 
+    is why it makes sense for Git to let you save multiple files in one commit. Dont think
+    Google docs was meant to save projects and their files all together so why would google docs
+    let you save multiple files at a time
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    git log gives you the version history of each commit for that particular repository. It also tells you
+    who commited and what. git diff lets you compare between two commits and provides number of lines of	
+    code added and removed from the old to the new version
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    Using Version control i can always go back and revert my repository to a previous working condition hence 
+    having the confidence to go ahead and try out new things if it breaks my code
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use subl to edit new projects and use Git for version control

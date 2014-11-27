@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initilize a repository you get the message "Initiliazed empty Git Repository in /../../../.git/"
+
+You need to first identify the folder or directory where you want to create the Git Repository then you need type git init command once u are in the directory
