@@ -15,3 +15,8 @@ If there are files for each logical change (eg: index.html, game.js etc.) then s
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Naming convention of the branches (master, experimental, NewVersion, forTeamMember etc) will help us keep the history organized. Anytime we do git status we will know which branch we are on and what are we currently working on
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you to understand in a bigger pricture where the whole repo stands. where a new feature brnach is right now and how different it is from the master branch, this might help merging fixes etc. in the future
+Diagrams also help us understand if there are certain commits that are unreachable. 
