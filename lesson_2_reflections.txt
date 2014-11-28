@@ -24,3 +24,12 @@ Diagrams also help us understand if there are certain commits that are unreachab
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When we merge two branches we create a new branch that has changes/commits from both the branches. we represent it to show how the new commit of the merged branch has two parents and what all commits will be tracked down in the merged branch (the reachable commits from both the branches)
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: you dont have to worry about multiple changes in multiple branches
+	  Time efficient
+
+
+Cons: cannot detect legitimate conflicts all the time
+      is not smart enough to understand the logical changes
