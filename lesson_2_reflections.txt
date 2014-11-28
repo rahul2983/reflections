@@ -7,3 +7,11 @@ You need to first identify the folder or directory where you want to create the 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is between working directory and Git Commit, it enables us to move files which we think are ready for a commit to a diff area. Before we commit if we want to re-analyse about adding or removing certain files we can do that easily in the staging without doing any commits with git reset command
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+If there are files for each logical change (eg: index.html, game.js etc.) then staging area can help ensure we do one commit per logical change. git diff and git diff --staged can help us ensure that we keep track of logical changes and commit only one logical change per commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Naming convention of the branches (master, experimental, NewVersion, forTeamMember etc) will help us keep the history organized. Anytime we do git status we will know which branch we are on and what are we currently working on
