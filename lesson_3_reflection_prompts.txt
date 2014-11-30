@@ -30,7 +30,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would email my project files to the person with whom I want to collaborate. Wait for his feedback and then once i receive the feedback, act upon it. It would be easier if only two of us are working on a project. Then its way simpler to just email back and forth. The harder part in this approach would be collaborating with more than one person. You would get feedback from multiple emails and then sit down and figure out yourself what to merge and what to update etc. Also time required to finish a project would increase without Git and GitHub as I won't be able to proceed with my work without getting feedback.  
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
